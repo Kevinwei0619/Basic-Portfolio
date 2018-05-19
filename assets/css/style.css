@@ -1,3 +1,66 @@
-*{
-    
+body{ 
+    background: #4aaaa5;  
+    /* used for heading and backgrounds */
+
+  
+
 }
+
+.section{
+    background-image: url(light-grey-terrazzo.png);
+    width: 960px;
+}
+
+
+.fontcolor{
+    color:#777777;
+    float: left;
+     
+}
+
+
+#head{
+    background: #ffffff;
+    border: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+
+footer{
+    background:#666666;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    clear: both;
+}
+
+
+#maincontent{
+    background: #ffffff;
+    border: #dddddd;
+
+}
+
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#image{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+  }
